@@ -1,0 +1,59 @@
+[
+  {
+    "id":"speech_therapy",
+    "name": "Speech Therapy Website",
+    "desc": "An advanced therapy management platform aimed at automating tasks for therapists, supervisors, and patients.",
+    "details":"This therapy management platform automates essential tasks for therapists, supervisors, and patients, improving efficiency. As a Full Stack Developer, I leveraged HTML, CSS, React, JavaScript, Node.js, and MongoDB to create a system that automates patient allocation by assigning patients to therapists based on predefined criteria, reducing administrative workload. The platform includes secure tools for recording therapy documentation, treatment progress, and session details, with encryption ensuring data security. Progress tracking features allow therapists and patients to visualize progress through charts and milestones. A client dashboard enables patients to schedule sessions, access treatment plans, and provide feedback. Supervisors oversee the entire system, reviewing therapy documentation, monitoring patient-therapist interactions, and approving session plans. The backend architecture is scalable, handling multiple concurrent users efficiently.",
+    "image": "logo",
+    "category": "sih",
+    "links": {
+      "view": "https://drive.google.com/drive/folders/1iHlZV8IaEE7WG4nU85xdqum7O89UY_Go?usp=sharing",
+      "code": "https://github.com/Denish004/speech_therapy"
+    }
+  },
+  {
+    "id":"inventory_management",
+    "name": "Inventory Management Website",
+    "desc": "A robust inventory management system tailored to aid goods dealers in organizing and tracking their products efficiently.",
+    "details":"This inventory management system is tailored to help goods dealers efficiently organize and track their stock. As a Full Stack Developer, I used HTML, CSS, React, JavaScript, SQL, and MariaDB to create a dynamic inventory system that supports adding, updating, deleting, and viewing stock records in real-time, with optimized SQL queries for fast database interactions. I developed a detailed billing module that generates itemized bills for each order, including tax calculations and total breakdowns for transparency. An analytics dashboard visualizes sales trends, stock levels, and customer purchase histories, with downloadable reports in PDF and Excel formats. I implemented a secure login system with role-based access control, restricting database modifications to authorized personnel. The website is designed to function seamlessly across all devices.",
+    "image": "logo",
+    "category": "dbms",
+    "links": {
+      "view": "https://drive.google.com/drive/folders/1bcr3vOYAu-SpQ4M06hzN8fmCd8Gfqi5-?usp=drive_link",
+      "code": "https://github.com/jigar-sable/sppu-prep-android"
+    }
+  },
+  {
+    "name": "Olympics Details Website",
+    "desc": "The Olympics Website provides real-time medal records, details about medalists, and highlights India’s achievements in the Olympics.",
+    "deatails":"The Olympics Website, created using HTML, CSS, React, JavaScript, Node.js, and MongoDB, serves as a comprehensive platform for sports enthusiasts. It provides real-time medal records, details about medalists, and highlights India’s achievements in the Olympics. The site also includes a section for ticket pricing and other event-related information, offering users an engaging and informative experience. Its interactive design and features ensure seamless navigation for all types of users, making it an excellent resource for staying updated on Olympic events.",
+    "image": "image",
+    "category": "wim",
+    "links": {
+      "view": "https://drive.google.com/drive/folders/1kxS00WzFYzq3xGQozWsLtDNUAFvERUso?usp=sharing",
+      "code": ""
+    }
+  },
+  {
+    "name": "Rental Management Website",
+    "desc": "A cutting-edge rental management website designed to streamline property interactions between landlords and tenants.",
+    "details":"This rental management website streamlines property interactions between landlords and tenants. As a Frontend Developer, I utilized HTML, CSS, React, JavaScript, Node.js, and MongoDB to create a seamless user experience. The platform features an advanced filtering mechanism that allows users to search for properties based on customizable parameters such as location, budget, size, and amenities, with dynamic updates to search results. I integrated a reminder feature to notify users about upcoming rental payments or lease expirations via in-app alerts or email. Detailed property pages include high-quality images, descriptions, and Google Maps integration for location previews, alongside a comparison feature for evaluating multiple properties. Real-time review functionality allows tenants to provide live feedback and ratings, enhancing platform transparency. The website’s responsive design ensures compatibility across all devices.",
+    "image": "logo",
+    "category": "inheri",
+    "links": {
+      "view": "https://drive.google.com/drive/folders/1FRVFHUg4ntqo4UWJtLue1OeP5eyKaOPT?usp=drive_link",
+      "code": "https://github.com/KeshavD01/WebGeniusAi"
+    }
+  },
+  {
+    "name": "Student Portal Website",
+    "desc": "An all-in-one student management platform aimed at streamlining academic tasks and enhancing learning efficiency.",
+    "details":"This student management platform serves as a comprehensive academic tool. As a Frontend Developer, I used HTML, CSS, React, JavaScript, Node.js, and MongoDB to develop features such as an online library where students can browse, download, and read academic resources with search and categorization capabilities. I designed a streamlined assignment submission portal, enabling students to upload assignments and teachers to review and grade them. Dynamic forms for student and course registration ensure data accuracy, with backend integration for secure data storage. A request facility allows students to make academic or scheduling changes, subject to teacher approval. The platform boasts a responsive and interactive design to facilitate seamless interactions for students and faculty alike.",
+    "image": "logo",
+    "category": "vjti-hack",
+    "links": {
+      "view": "https://drive.google.com/drive/folders/115utxSC2n76iUklvHqhxACjWVNq6K2Cq?usp=drive_link",
+      "code": "https://github.com/Denish004/webgenius"
+    }
+  }
+]

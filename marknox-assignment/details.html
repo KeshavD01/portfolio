@@ -1,0 +1,105 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Back to Home</a>
+    </header>
+    <main>
+        <div class="project-details">
+            <h1 id="project-title"></h1>
+            <img id="project-image" src="" alt="Project Image">
+            <p id="project-details"></p>
+            <a id="project-code" href="#" target="_blank">View Code</a>
+        </div>
+    </main>
+    <script src="details.js"></script>
+</body>
+
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Back to Home</a>
+    </header>
+    <main>
+        <div class="project-details">
+            <h1 id="project-title"></h1>
+            <img id="project-image" src="" alt="Project Image">
+            <p id="project-details"></p>
+            <a id="project-code" href="#" target="_blank">View Code</a>
+        </div>
+    </main>
+    <script src="project/details.js"></script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Back to Home</a>
+    </header>
+
+    <main>
+        <div class="project-details">
+            <h1 id="project-title"></h1>
+            <img id="project-image" src="" alt="Project Image">
+            <p id="project-details"></p>
+            <a id="project-code" href="#" target="_blank">View Code</a>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const projectId = urlParams.get('id'); // Get the 'id' parameter from the URL
+
+            if (projectId) {
+                // Fetch the project data from the JSON file located in the 'project' folder
+                fetch('project/projects.json')  // Adjusted path
+                    .then(response => response.json())
+                    .then(data => {
+                        // Find the project matching the id
+                        const project = data.find(p => p.id === projectId);
+                        if (project) {
+                            // Populate the page with project details
+                            document.getElementById('project-title').textContent = project.name;
+                            document.getElementById('project-details').textContent = project.details;
+                            document.getElementById('project-image').src = `/assets/images/projects/${project.image}.png`;
+                            document.getElementById('project-code').href = project.links.code;
+                        } else {
+                            document.getElementById('project-details').innerHTML = '<p>Project not found.</p>';
+                        }
+                    })
+                    .catch(error => console.error('Error fetching project details:', error));
+            }
+        });
+    </script>
+</body>
+
+</html>
